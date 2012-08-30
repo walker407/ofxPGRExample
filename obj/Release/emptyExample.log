@@ -1,0 +1,34 @@
+﻿Build started 8/30/2012 6:46:58 PM.
+     1>Project "C:\Users\Harry Scott\Desktop\of_v0071_vs2010_release\of_v0071_vs2010_release\apps\myApps\ofxPGRExample\emptyExample.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "obj\Release\emptyExample.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\emptyExample.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:addons\ofxPGR\libs\FlyCapture2\lib /LIBPATH:..\..\..\libs\glut\lib\vs2010 /LIBPATH:..\..\..\libs\rtAudio\lib\vs2010 /LIBPATH:..\..\..\libs\FreeImage\lib\vs2010 /LIBPATH:..\..\..\libs\freetype\lib\vs2010 /LIBPATH:..\..\..\libs\quicktime\lib\vs2010 /LIBPATH:..\..\..\libs\fmodex\lib\vs2010 /LIBPATH:..\..\..\libs\videoInput\lib\vs2010 /LIBPATH:..\..\..\libs\cairo\lib\vs2010 /LIBPATH:..\..\..\libs\glew\lib\vs2010 /LIBPATH:..\..\..\libs\glu\lib\vs2010 /LIBPATH:..\..\..\libs\Poco\lib\vs2010 /LIBPATH:..\..\..\libs\tess2\lib\vs2010 FlyCapture2.lib "cairo-static.lib" "pixman-1.lib" msimg32.lib OpenGL32.lib GLu32.lib kernel32.lib setupapi.lib Vfw32.lib comctl32.lib glut32.lib rtAudioD.lib videoInput.lib libfreetype.lib FreeImage.lib qtmlClient.lib dsound.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib glew32s.lib fmodex_vc.lib glu32.lib PocoFoundationmd.lib PocoNetmd.lib PocoUtilmd.lib PocoXMLmd.lib Ws2_32.lib tess2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:PocoFoundationd.lib /NODEFAULTLIB:atlthunk.lib /NODEFAULTLIB:LIBC.lib /NODEFAULTLIB:LIBCMT /MANIFEST /ManifestFile:"obj\Release\emptyExample.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\Harry Scott\Desktop\of_v0071_vs2010_release\of_v0071_vs2010_release\apps\myApps\ofxPGRExample\bin\emptyExample.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"bin\emptyExample.lib" /MACHINE:X86 obj\Release\main.obj
+         obj\Release\testApp.obj
+         "C:\Users\Harry Scott\Desktop\of_v0071_vs2010_release\of_v0071_vs2010_release\libs\openFrameworksCompiled\lib\vs2010\openframeworksLib.lib"
+            Creating library bin\emptyExample.lib and object bin\emptyExample.exp
+         emptyExample.vcxproj -> C:\Users\Harry Scott\Desktop\of_v0071_vs2010_release\of_v0071_vs2010_release\apps\myApps\ofxPGRExample\bin\emptyExample.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"bin\emptyExample.exe;#1" /manifest obj\Release\emptyExample.exe.intermediate.manifest
+       PostBuildEvent:
+         Description: adding DLLs and creating data folder
+         xcopy /e /i /y "C:\Users\Harry Scott\Desktop\of_v0071_vs2010_release\of_v0071_vs2010_release\apps\myApps\ofxPGRExample\..\..\..\export\vs2010\*.dll" "C:\Users\Harry Scott\Desktop\of_v0071_vs2010_release\of_v0071_vs2010_release\apps\myApps\ofxPGRExample\bin"
+         :VCEnd
+         C:\Users\Harry Scott\Desktop\of_v0071_vs2010_release\of_v0071_vs2010_release\apps\myApps\ofxPGRExample\..\..\..\export\vs2010\Assimp32.dll
+         C:\Users\Harry Scott\Desktop\of_v0071_vs2010_release\of_v0071_vs2010_release\apps\myApps\ofxPGRExample\..\..\..\export\vs2010\fmodex.dll
+         C:\Users\Harry Scott\Desktop\of_v0071_vs2010_release\of_v0071_vs2010_release\apps\myApps\ofxPGRExample\..\..\..\export\vs2010\fmodexL.dll
+         C:\Users\Harry Scott\Desktop\of_v0071_vs2010_release\of_v0071_vs2010_release\apps\myApps\ofxPGRExample\..\..\..\export\vs2010\FreeImage.dll
+         C:\Users\Harry Scott\Desktop\of_v0071_vs2010_release\of_v0071_vs2010_release\apps\myApps\ofxPGRExample\..\..\..\export\vs2010\FreeType-6.dll
+         C:\Users\Harry Scott\Desktop\of_v0071_vs2010_release\of_v0071_vs2010_release\apps\myApps\ofxPGRExample\..\..\..\export\vs2010\glut32.dll
+         C:\Users\Harry Scott\Desktop\of_v0071_vs2010_release\of_v0071_vs2010_release\apps\myApps\ofxPGRExample\..\..\..\export\vs2010\Zlib.dll
+         7 File(s) copied
+       FinalizeBuildStatus:
+         Deleting file "obj\Release\emptyExample.unsuccessfulbuild".
+         Touching "obj\Release\emptyExample.lastbuildstate".
+     1>Done Building Project "C:\Users\Harry Scott\Desktop\of_v0071_vs2010_release\of_v0071_vs2010_release\apps\myApps\ofxPGRExample\emptyExample.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.71
